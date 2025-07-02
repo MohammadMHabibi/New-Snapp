@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "sass": "^1.89.2"
+  },
+  "name": "new-snapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"sass ./sass/style.scss ./style/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadMHabibi/New-Snapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammadMHabibi/New-Snapp/issues"
+  },
+  "homepage": "https://github.com/MohammadMHabibi/New-Snapp#readme",
+  "description": ""
+}

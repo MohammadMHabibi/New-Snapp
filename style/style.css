@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration-line: none;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  direction: rtl;
+}
+body header main nav {
+  padding: 29px 54px;
+}
+body header main nav ul {
+  gap: 30px;
+  list-style-type: none;
+  display: flex;
+}
+body header main nav ul li {
+  font-size: 15px;
+  color: #3f3f3f;
+  font-weight: 300;
+}
+body header main div.father {
+  display: flex;
+}
+body header main div.father div.right {
+  background-color: #21aa58;
+  color: #FFFFFF;
+  width: 50%;
+  padding: 32px 137px 32px 24px;
+  height: 64vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+body header main div.father div.right div.input input {
+  outline: none;
+  border: none;
+  background-color: #21aa58;
+  border-bottom: 1px solid #FFFFFF;
+  width: 203px;
+  height: 48px;
+}
+body header main div.father div.right div.input input input::placeholder {
+  color: rgba(255, 255, 255, 0.8156862745);
+}
+body header main div.father h1 {
+  font-size: 36px;
+}
+body header main div.father p {
+  font-size: 20px;
+}
+body header main div.father div.button a {
+  width: 101px;
+  height: 40px;
+  background-color: #FFFFFF;
+  padding: 10px 32px;
+  border-radius: 7px;
+  font-size: 14px;
+  color: #00d16f;
+  font-weight: 600;
+}
+body header main div.left {
+  background-image: url(../images/intro_desktop.jpg);
+  transform: scaleX(-1);
+  background-size: cover;
+  width: 50%;
+  height: 64vh;
+}
+body header main div.images {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  transform: translate(0px, 80px);
+  padding: 0 165px;
+  gap: 60px;
+}
+body header main div.images img {
+  display: flex;
+}
+body header main div.images img.pictiure {
+  width: 160px;
+  height: 47px;
+}
+body header main div.images img.sv {
+  width: 160px;
+  height: 53px;
+}
+body header main div.images a.lin {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #ffffff;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */

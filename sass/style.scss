@@ -1,0 +1,111 @@
+$primary-color: #21aa58;
+$secondry-color: #FFFFFF;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-line: none;
+}
+body{
+    font-family: "Vazirmatn", sans-serif;
+    direction: rtl;
+    header{
+        main{
+            nav{
+                padding: 29px 54px;
+                ul{
+                    gap: 30px;
+                    list-style-type: none;
+                    display: flex;
+                    li{
+                        font-size: 15px;
+                        color: #3f3f3f;
+                        font-weight: 300;
+                    }
+                }
+            }
+            div.father{
+                display: flex;
+                div.right{
+                background-color: $primary-color;
+                color: #FFFFFF;
+                width: 50%;
+                padding: 32px 137px 32px 24px;
+                height: 64vh;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-evenly;
+                div.input{
+                    input{
+                input::placeholder{
+                    color: #ffffffd0;
+                }
+                        outline: none;
+                        border: none;
+                        background-color: $primary-color;
+                        border-bottom: 1px solid #FFFFFF;
+                        width: 203px;
+                        height: 48px;
+                    }
+                    }
+
+                }
+                h1{
+                    font-size: 36px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                div.button{
+                    a{
+                        width: 101px;
+                        height: 40px;
+                        background-color: #FFFFFF;
+                        padding: 10px 32px;
+                        border-radius: 7px;
+                        font-size: 14px;
+                        color: #00d16f;
+                        font-weight: 600;
+                    }
+                }
+                } 
+                div.left{
+                    background-image: url(../images/intro_desktop.jpg);
+                    transform: scaleX(-1);
+                    background-size: cover;
+                    width: 50%;
+                    height: 64vh;
+                    
+                }
+                div.images{
+                    display: flex;
+                    align-content: center;
+                    justify-content: space-evenly;
+                    transform: translate(0px,80px);
+                    padding: 0 165px;
+                    gap: 60px;
+
+
+                    img{
+                        display: flex;
+                        
+                    }
+                img.pictiure{
+                    width: 160px;
+                    height: 47px;
+                }
+                img.sv{
+                    width: 160px;
+                    height: 53px;
+                }                
+                a.lin{
+                    width: 202px;
+                    height: 48px;
+                    border: 1px solid #ffffff;
+                    color: #FFFFFF;
+                }
+                }
+            } 
+        }
+    }
+// #21aa58
