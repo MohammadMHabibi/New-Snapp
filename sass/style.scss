@@ -1,12 +1,8 @@
 $primary-color: #21aa58;
 $secondry-color: #FFFFFF;
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration-line: none;
-}
+@use "./_reset.scss";
 body{
+    height: 500vh;
     font-family: "Vazirmatn", sans-serif;
     direction: rtl;
     header{
@@ -19,32 +15,35 @@ body{
                     display: flex;
                     li{
                         font-size: 15px;
-                        color: #3f3f3f;
+                        a{
+                            color: #3f3f3f;
+                        }
                         font-weight: 300;
                     }
                 }
             }
             div.father{
                 display: flex;
+                padding: 2px;
+                
                 div.right{
                 background-color: $primary-color;
                 color: #FFFFFF;
                 width: 50%;
                 padding: 32px 137px 32px 24px;
-                height: 64vh;
+                height: 66vh;
                 display: flex;
-                flex-flow: row wrap;
-                justify-content: space-evenly;
+                flex-wrap: wrap;
                 div.input{
                     input{
-                input::placeholder{
-                    color: #ffffffd0;
+                ::placeholder{
+                    color: #ffffff;
                 }
                         outline: none;
                         border: none;
                         background-color: $primary-color;
                         border-bottom: 1px solid #FFFFFF;
-                        width: 203px;
+                        width: 250px;
                         height: 48px;
                     }
                     }
@@ -58,10 +57,10 @@ body{
                 }
                 div.button{
                     a{
-                        width: 101px;
+                        width: 112px;
                         height: 40px;
                         background-color: #FFFFFF;
-                        padding: 10px 32px;
+                        padding: 10px 34px;
                         border-radius: 7px;
                         font-size: 14px;
                         color: #00d16f;
@@ -74,16 +73,16 @@ body{
                     transform: scaleX(-1);
                     background-size: cover;
                     width: 50%;
-                    height: 64vh;
+                    height: 66vh;
                     
                 }
                 div.images{
                     display: flex;
                     align-content: center;
                     justify-content: space-evenly;
-                    transform: translate(0px,80px);
-                    padding: 0 165px;
-                    gap: 60px;
+                    transform: translate(0px,70px);
+                    padding: 0 146px;
+                    gap: 56px;
 
 
                     img{
@@ -101,11 +100,72 @@ body{
                 a.lin{
                     width: 202px;
                     height: 48px;
-                    border: 1px solid #ffffff;
                     color: #FFFFFF;
+                    border: 1px solid #FFFFFF;
                 }
                 }
             } 
+        }
+        div.part2{
+            background-color: #f2f5f8;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: row;
+            height: 60%;
+
+            h2{
+                padding: 40px 0px;
+                color: #404040;
+                font-size: 36px;font-weight:900;
+                display: flex;
+                height: 80px;
+                width: 100%;
+                // transform: translate(-462px,-380px);
+                font-size: 36px;
+
+            }
+            div.Otheroptions{
+                // background-color: red;
+                width: 885px;
+                height: 1008px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                transform: translate(0,-280px);
+                a.pvg{
+                    margin: 30px 25px 0 10px;
+                    border-radius: 10px;
+                    width: 290px;
+                    height: 90px;
+                    display: flex;
+                    background-color: #ffffff;
+                    color: #3f3f3f;
+                    padding: 8px;
+                    img{
+                        margin: 0 8px;
+                        width: 62px;
+                        height: 62px;
+                    }
+                    img.motafavet{
+                        width: 72px;
+                        height: 72px;
+                    }
+                    h3{
+                        font-size: 16px;
+                        color: #3f3f3f;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: #a3a3a3;
+                    }
+                    svg{
+                        width:62px ;
+                        height: 62px;
+                        margin: 0 8px;
+                    }
+                }
+            }
         }
     }
 // #21aa58

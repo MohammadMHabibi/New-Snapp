@@ -6,6 +6,7 @@
 }
 
 body {
+  height: 500vh;
   font-family: "Vazirmatn", sans-serif;
   direction: rtl;
 }
@@ -19,32 +20,34 @@ body header main nav ul {
 }
 body header main nav ul li {
   font-size: 15px;
-  color: #3f3f3f;
   font-weight: 300;
+}
+body header main nav ul li a {
+  color: #3f3f3f;
 }
 body header main div.father {
   display: flex;
+  padding: 2px;
 }
 body header main div.father div.right {
   background-color: #21aa58;
   color: #FFFFFF;
   width: 50%;
   padding: 32px 137px 32px 24px;
-  height: 64vh;
+  height: 66vh;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 body header main div.father div.right div.input input {
   outline: none;
   border: none;
   background-color: #21aa58;
   border-bottom: 1px solid #FFFFFF;
-  width: 203px;
+  width: 250px;
   height: 48px;
 }
-body header main div.father div.right div.input input input::placeholder {
-  color: rgba(255, 255, 255, 0.8156862745);
+body header main div.father div.right div.input input ::placeholder {
+  color: #ffffff;
 }
 body header main div.father h1 {
   font-size: 36px;
@@ -53,10 +56,10 @@ body header main div.father p {
   font-size: 20px;
 }
 body header main div.father div.button a {
-  width: 101px;
+  width: 112px;
   height: 40px;
   background-color: #FFFFFF;
-  padding: 10px 32px;
+  padding: 10px 34px;
   border-radius: 7px;
   font-size: 14px;
   color: #00d16f;
@@ -67,15 +70,15 @@ body header main div.left {
   transform: scaleX(-1);
   background-size: cover;
   width: 50%;
-  height: 64vh;
+  height: 66vh;
 }
 body header main div.images {
   display: flex;
   align-content: center;
   justify-content: space-evenly;
-  transform: translate(0px, 80px);
-  padding: 0 165px;
-  gap: 60px;
+  transform: translate(0px, 70px);
+  padding: 0 146px;
+  gap: 56px;
 }
 body header main div.images img {
   display: flex;
@@ -91,8 +94,66 @@ body header main div.images img.sv {
 body header main div.images a.lin {
   width: 202px;
   height: 48px;
-  border: 1px solid #ffffff;
   color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+body div.part2 {
+  background-color: #f2f5f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  height: 60%;
+}
+body div.part2 h2 {
+  padding: 40px 0px;
+  color: #404040;
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  font-size: 36px;
+}
+body div.part2 div.Otheroptions {
+  width: 885px;
+  height: 1008px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  transform: translate(0, -280px);
+}
+body div.part2 div.Otheroptions a.pvg {
+  margin: 30px 25px 0 10px;
+  border-radius: 10px;
+  width: 290px;
+  height: 90px;
+  display: flex;
+  background-color: #ffffff;
+  color: #3f3f3f;
+  padding: 8px;
+}
+body div.part2 div.Otheroptions a.pvg img {
+  margin: 0 8px;
+  width: 62px;
+  height: 62px;
+}
+body div.part2 div.Otheroptions a.pvg img.motafavet {
+  width: 72px;
+  height: 72px;
+}
+body div.part2 div.Otheroptions a.pvg h3 {
+  font-size: 16px;
+  color: #3f3f3f;
+}
+body div.part2 div.Otheroptions a.pvg p {
+  font-size: 14px;
+  color: #a3a3a3;
+}
+body div.part2 div.Otheroptions a.pvg svg {
+  width: 62px;
+  height: 62px;
+  margin: 0 8px;
 }
 
 /*# sourceMappingURL=style.css.map */
